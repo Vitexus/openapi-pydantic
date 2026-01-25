@@ -1,0 +1,28 @@
+Source: python-openapi-pydantic
+Section: python
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ pybuild-plugin-pyproject,
+ python3-all,
+ python3-poetry-core,
+Standards-Version: 4.7.0
+Homepage: https://github.com/mike-oakley/openapi-pydantic
+Vcs-Git: https://github.com/mike-oakley/openapi-pydantic.git
+Vcs-Browser: https://github.com/mike-oakley/openapi-pydantic
+Rules-Requires-Root: no
+
+Package: python3-openapi-pydantic
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+ python3-pydantic (>= 1.8),
+Description: Pydantic OpenAPI schema implementation
+ This package provides Pydantic models for OpenAPI 3.0 and 3.1 specifications.
+ It allows parsing, validation, and manipulation of OpenAPI schemas using
+ Pydantic's validation and serialization features.
+ .
+ This package provides the Python 3 library.

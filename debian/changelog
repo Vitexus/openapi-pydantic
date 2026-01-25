@@ -1,0 +1,6 @@
+python-openapi-pydantic (0.5.1-1) unstable; urgency=medium
+
+  * Initial Debian package release
+  * New upstream release v0.5.1
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Sat, 25 Jan 2026 23:22:00 +0100
